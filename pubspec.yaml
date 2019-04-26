@@ -8,7 +8,10 @@ dependencies:
   meta: "^1.0.5"
   flutter:
     sdk: flutter
-  permission_handler: "^3.0.0"
+  permission_handler:
+    git:
+      url: https://github.com/williamdias/flutter-permission-handler
+      ref: 41ecf3c9cec1b78af3bb30df348c3c472139ffa7
   google_api_availability: "^2.0.0"
 dev_dependencies:
   flutter_test:
